@@ -1,0 +1,25 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "This is a simple RESTful API created using Node, Express and PostgreSQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiada/Todo-API-Postgre.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adiada/Todo-API-Postgre/issues"
+  },
+  "homepage": "https://github.com/adiada/Todo-API-Postgre#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
